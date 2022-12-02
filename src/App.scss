@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import "src/styles/_variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    color:$text-color;
+    font-family: "DM Sans", sans-serif;
+    height: 100%;
+    width: 100%;
+    display: flex;
+ 
+    background-image: linear-gradient(120deg,
+            rgb(36, 11, 54) 0%,
+            rgb(195, 20, 50) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+// .fall {
+//   transform: translateY(10rem) rotateZ(20deg);
+//   opacity: 0;
+// }
+
+
+
+
+
+

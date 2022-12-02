@@ -1,0 +1,72 @@
+.formbox {
+  display: flex;
+  position: absolute;
+top: 150px;
+  right: 20px;
+  margin: 5px;
+  
+  .todoInput {
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+  }
+   .todoButton {
+  width: 10px;
+  height: 10px;
+  // color: #ff6f47;
+  background: rgb(36, 11, 54);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 9.5px;
+  margin-right: 10px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  
+  &:hover {
+  background: #c31432;
+}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+select {
+ 
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 10rem;
+  padding: 5px;
+  // background: #c31432;
+
+  // box-shadow: inset 4px 4px 4px rgba(217, 184, 241, 0.308);
+  
+//   &::after {
+//   content: "\25BC";
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   background: #c31432;
+//   cursor: pointer;
+//   box-shadow: inset 4px 4px 4px rgba(217, 184, 241, 0.308);
+// }
+
+// &:active::after {
+//   box-shadow: inset 4px 4px 4px rgba(36, 11, 54, 0.301);
+// }
+}
+
+
+
+
