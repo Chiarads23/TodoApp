@@ -26,10 +26,10 @@ const Todo = ({ text, todo, todos, setTodos }) => {
              styles.completed : ""}`}>
                 {text}</li>
             <button onClick={completeHandler} className={styles.completeBtn}>
-                <i className={styles.fas_fa_check}></i>
+             <span className={styles.checkBtn}>✓</span>
             </button>
-            <button onClick={deleteHandler} className={styles.trashBtn}>
-                <i className={styles.fas_fa_trash}></i>
+            <button onClick={deleteHandler} className={styles.deleteBtn}>
+             <span className={styles.trashBtn}>✗</span>
             </button>
         </div>
     );

@@ -1,12 +1,23 @@
 .todoContainer {
- 
+  grid-row: 3;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 10px;
 
-.todoList {
-
-  min-width: 30%;
-  list-style: none;}
+  .todoList {
+    width: 300px;
+    max-height: 266px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    margin-left: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(157, 129, 176, 0.1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(195, 20, 50, 0.5);
+    border-radius: 10px;
+    text-decoration: none;
+  }
 }
-

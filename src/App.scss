@@ -2,40 +2,29 @@
 @import "src/styles/_variables.scss";
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-html,body {
-    color:$text-color;
-    font-family: "DM Sans", sans-serif;
-    height: 100%;
-    width: 100%;
-    display: flex;
- 
-    background-image: linear-gradient(120deg,
-            rgb(36, 11, 54) 0%,
-            rgb(195, 20, 50) 100%);
-    background-repeat: no-repeat;
-    background-size: cover;
-    scroll-behavior: smooth;
+html,
+body {
+  background-image: linear-gradient(120deg, #240b36 0%, #c31432 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-
-
-
-
-
-
-
-
-// .fall {
-//   transform: translateY(10rem) rotateZ(20deg);
-//   opacity: 0;
-// }
-
-
-
-
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: [row1-start] 15% [row1-end] 
+   [row2-start] 15% [row2-end] 
+   [row3-start]40%[row3-end]
+   [row4-start]30%[row4-end];
+  justify-items: stretch;
+  align-items: center;
+  color: $text-color;
+  font-family: "DM Sans", sans-serif;
+  scroll-behavior: smooth;
+}
 
 
